@@ -1,0 +1,507 @@
+.major{
+    background-color:rgb(31, 1, 31);
+}
+
+.header> nav{
+    background-image: url(images/bg.jpg);
+    background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  
+    
+}
+
+
+#soclogo{
+    width: 200px;
+}
+
+.marq{
+    background-image: url(images/bg.jpg);
+    background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+    
+}
+
+.submarq> marquee{
+    color:white;
+}
+
+.navbar-nav>li{
+    padding-left: 10px !important;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px !important;
+    
+}
+.navbar-nav>li :hover{
+    background-color: darkblue;
+    opacity: 0.9;   
+    color:#9370DB !important;
+    border-radius: 5px;
+}
+
+.bod{
+    background-image: url(images/bg2.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin-top: 8px;
+    color: cornsilk;
+    margin-bottom: 8px;
+}
+.logo{
+    width: 100%;
+    height: 280px;
+    padding-top: 10px;
+    
+}
+.pics{
+    padding-bottom: 8px;
+}
+.bod2{
+    color: gainsboro;
+    padding-top: 20px;
+    margin-top: 20px;
+    background-image: url(images/bg2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.ac{
+    color: brown;
+}
+.marqsec{
+    padding-left: 20px;
+}
+.list> li{
+    list-style-type: none;
+    padding: 8px;
+}
+.heading{
+    padding-left: 45px;
+    font-size: 25px;
+    color:gainsboro;
+}
+.marqsec> marquee{
+    height: 190px;
+    margin-top: 10px;
+    color:gainsboro;
+}
+
+.certy{
+    height: 200px;
+    width: 100% ;
+    padding-top: 10px;
+}
+
+.gal{
+    font-size: 40px;
+    /* text-align: center; */
+    color: ghostwhite;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+.spa{
+    border-top: 1px solid yellow;
+    display: block;
+    width: 94%;
+    
+}
+.gallery{
+    background-image: url(images/download.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin-top: 15px;
+    padding-bottom: 20px;
+}
+
+
+
+
+/* hover */
+.overlay {
+    position: absolute;
+    top: 0px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color:blueviolet;
+    border-radius: 20px;
+  }
+  
+  .con:hover .overlay {
+    opacity: 0.8;
+  }
+  
+  .text {
+    color:yellow;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  .footer{
+      background-image: url(images/bg.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-attachment: fixed;
+      margin-top: 10px;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      color:whitesmoke;
+  }
+  .links > li{
+      
+      padding: 4px;
+      
+  }
+  .linkssec> li{
+    list-style-type: none;
+    padding: 4px;
+     
+  }
+ .links> li> a{
+      color: whitesmoke;
+  }
+  .linkssec> li> a{
+    color: whitesmoke;
+}
+  h4{
+      color: yellow;
+      padding-bottom: 7px;
+  }
+  .spaf{
+      border-top: 1px solid yellow;
+      display: block;
+      width: 20%;
+      padding-bottom: 20px;
+  }
+  .ftim{
+      padding-top: 10px;
+      padding-right: 10px;
+      padding-left: 10px;
+  }
+  .end{
+      background-color: yellow;
+      color:black;
+      padding-top: 10px;
+      font-size: 17px;
+      
+  }
+  /* index ends */
+
+
+  .natintro{
+    background-image: url(images/download.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    margin-top: 8px;
+    padding-top: 15px;
+    padding-bottom: 8px;
+    font-size: 20px;
+}
+.reasons{
+  /* background-image: url(images/bg2.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat; */
+  color: white;
+  margin-top: 10px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.spa3{
+  border-top: 3px solid yellow;
+  width: 100%;
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 25px;
+}
+.cards{
+  /* background-image: url(images/bg2.jpg); */
+  /* background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat; */
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.cards1{
+ 
+  border-radius: 10px;
+  background-image: url(images/bg.jpg); 
+  width: 100%;
+  height: 270px;
+  padding: 10px;
+  text-align: center;
+  justify-content: center;
+  box-shadow: 10px 10px 10px red;
+  margin-bottom: 20px;
+  
+}
+.hone{
+  font-weight: bold;
+  color: yellow;
+  font-size: 25px;
+  
+}
+.htwo{
+  font-weight: bold;
+  color: yellowgreen;
+  font-size: 20px;
+}
+.hthree{
+  font-weight: bold;
+  color: yellowgreen;
+  font-size: 15px;
+}
+.reca{
+  background-image: url(images/bg2.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.spa4{
+    border-top: 1px solid yellow;
+    display: block;
+    margin-bottom: 20px;
+    width: 20%;
+}
+.ben{
+    color: white;
+    
+}
+.pos3{
+    width: 100%;
+    height: 330px;
+    margin-top: 10px;
+}
+.caro2{
+    padding-bottom: 10px;
+}
+.up{
+    position: fixed;
+    bottom: 10px;
+    right: 17px;
+    z-index: 1;
+    opacity: 0.5;
+    background-color:yellow;
+    border-radius: 50px;
+
+}
+.up:hover{
+    background-color:red;
+    border-radius: 50px;
+    opacity: 1;
+}
+
+/* NATp completed */
+
+form{
+    font-size: 20px;
+    color: white;
+    padding: 30px;
+}
+.for{
+    background-image: url(images/download.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin-top: 10px;
+}
+.subm{
+    font-size: 20px;
+    padding: 8px;
+    border-radius: 15px;
+    border-color: yellow;
+    background-color: thistle;
+
+}
+.subm:hover{
+    border-color: tomato;
+    background-color: turquoise;
+}
+.ff{
+    padding-top: 70px;
+}
+
+/* form end */
+
+/* aboutsoc */
+
+.wwe{
+   
+    padding-top: 50px;
+    padding-bottom: 10px;
+    margin-top: 8px;
+}
+
+.major2{
+
+    background-image: url(images/bg2.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: ivory;
+        
+    
+}
+
+.hti{
+    font-size: 20px;
+    padding-top: 15px;
+    padding-bottom: 20px;
+}
+
+.spa5{
+    border-top: 2px solid yellow;
+    display: block;
+    width: 25%;
+    margin-bottom: 20px;
+}
+
+
+.ico{
+    width: 100%;
+    height: 180px;
+    border-radius: 20px;
+    padding-bottom: 10px;
+}
+.ot{
+    padding-top: 70px;
+    text-align: center;
+}
+
+
+.spa6{
+    border-top: 2px solid yellow;
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.quop{
+    font-size: 20px;
+}
+.comgr{
+    width: 100%;
+    height: 400PX;
+    margin-top: 10px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px 2px red ;
+    margin-bottom: 10px;
+    
+}
+.ra{
+    padding-top: 100px;
+    text-align: center;
+    padding-bottom: 40px;
+}
+.spa7{
+    border-top: 2px solid yellow;
+    display: block;
+    width: 100%;
+    margin-top: 20px;
+}
+.revs{
+    border: 2px solid yellow ;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    /* height: 250px; */
+}
+.spa8{
+    border-top: 2px solid yellow;
+    display: block;
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 80px;
+    
+}
+/* aboutsoc end */
+
+
+/* abouthighbrow */
+
+
+.omp{
+    color: ivory;
+}
+.tl{
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+.om{
+    padding-top: 30px;
+}
+.spa9{
+    border-top: 1px solid yellow;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.campus{
+    /* background-image: url(images/campus.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; */
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.campubg{
+    background-image: url(images/campus.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    padding: 10px;
+    text-align: center;
+}
+
+.bl{
+    color: black;
+}
+.location{
+    color: yellow;
+}
+.spa10{
+    border-top: 1px solid yellow;
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.deanmess{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.spa11{
+    border-top: 2px solid yellow;
+    display: block;
+}
+.dm{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.mess{
+    background-image: url(images/download.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 30px;
+    padding-bottom: 40px;
+    
+}
+
+
+
